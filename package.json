@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://rafaelmsantos28.github.io/arquitetura-software-site",
+  "homepage": "https://acadarqsoftware.github.io/academia-do-arquiteto-de-software/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
