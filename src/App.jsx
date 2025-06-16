@@ -12,7 +12,7 @@ import ScrollToTop from './components/comuns/ScrollToTop.jsx';
 
 function App() {
   return (
-    <Router basename="/arquitetura-software-site">
+    <Router basename="/academia-do-arquiteto-de-software">
       <ScrollToTop />
       <Header />
       <Routes>
