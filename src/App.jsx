@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/comuns/Header';
 import Footer from './components/comuns/Footer';
 
@@ -12,7 +12,7 @@ import ScrollToTop from './components/comuns/ScrollToTop.jsx';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/academia-do-arquiteto-de-software">
       <ScrollToTop />
       <Header />
       <Routes>
@@ -22,6 +22,8 @@ function App() {
         <Route path="/extensao" element={<Extensao />} />
         <Route path="/sobrenos" element={<SobreNos />} />
         <Route path="/quemsoueu" element={<QuemSouEu />} />
+
+        {/* outras rotas */}
       </Routes>
       <Footer />
     </Router>
