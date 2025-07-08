@@ -9,6 +9,10 @@ lerna-debug.log*
 
 # Dependências
 node_modules/
+node_modules/
+node_modules/.vite
+
+*.vite/deps
 
 # Build output (ignorar no repositório principal, usada apenas para deploy)
 dist/
