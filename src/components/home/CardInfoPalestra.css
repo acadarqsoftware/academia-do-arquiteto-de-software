@@ -4,7 +4,7 @@
   background-position: center;
   background-repeat: no-repeat;
   padding: 2rem 1rem;
-  margin-top: -1rem;
+  margin-top: -2rem;
 }
 
 .card-info-palestra {
@@ -38,6 +38,12 @@
 .link-cardinfopalestra {
   text-decoration: none;
 }
+
+.link-inscreva-se {
+  text-decoration: none;
+  color: white;
+}
+
 
 /* Responsividade para os botões */
 .card-info-palestra-container .botoes-container {

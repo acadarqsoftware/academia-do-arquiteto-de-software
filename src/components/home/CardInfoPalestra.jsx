@@ -40,7 +40,7 @@ const CardInfoPalestra = () => {
   // HTML do componente
   return (
     <div
-      className="card-info-palestra-container px-5 mx-5"
+      className="card-info-palestra-container px-5 mb-3"
       style={{ backgroundImage: `url(${FundoPalestrantes})` }}
     >
       {palestras.map((palestra, index) => (
@@ -66,17 +66,26 @@ const CardInfoPalestra = () => {
 
       {/* Botões fixos */}
       <div className="botoes-container">
-        <button onClick={handleOpenPopup} className="btn btn-primary">
-          Saiba mais
+        <button className="btn btn-primary">
+          <a
+            href="https://www.linkedin.com/posts/academia-do-arquiteto-de-software_neste-%C3%BAltimo-s%C3%A1bado-tivemos-a-abertura-do-activity-7345581059683549185-OVB6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEdWWKMBFbVozcsMUbdVeyiyYgUkMZlZuqw"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="link-inscreva-se"
+          >
+            Saiba mais
+          </a>
         </button>
-        <a
-          href="https://forms.gle/3fFBLLaWTYWFLbv4A"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn btn-primary"
-        >
-          Inscreva-se
-        </a>
+        <button className="btn btn-primary" disabled>
+          <a
+            href="https://forms.gle/3fFBLLaWTYWFLbv4A"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="link-inscreva-se"
+          >
+            Inscreva-se
+          </a>
+        </button>
       </div>
 
       {/* Popup */}

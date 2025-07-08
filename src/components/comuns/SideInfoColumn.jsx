@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './SideInfoColumn.css';
 
 import newsImg2 from '../../assets/noticias/news2.png';
+import eventoinaugural from '../../assets/noticias/eventoInaugural.jpg';
 import popupEventoDesktop from '../../assets/popup/eventoinaugural-desktop.jpg';
 import popupEventoMobile from '../../assets/popup/eventoinaugural-mobile.jpg';
 import Popup from './Popup';
@@ -10,6 +11,13 @@ import Popup from './Popup';
 const newsList = [
   {
     id: 1,
+    image: eventoinaugural,
+    title: 'Obrigado a todos que participaram do evento!',
+    date: '29/06/2025',
+    externalLink: 'https://www.instagram.com/p/DLipUOnOIsu/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+  },
+  {
+    id: 2,
     image: newsImg2,
     title: 'Evento inaugural do programa acontece no dia 28/06',
     date: '05/06/2025',
@@ -40,7 +48,13 @@ function SideInfoColumn() {
         {newsList.map((news) => (
           <div key={news.id}>
             <button
-              onClick={() => openPopup(news)}
+              onClick={() => {
+                if (news.externalLink) {
+                  window.open(news.externalLink, '_blank');
+                } else {
+                  openPopup(news);
+                }
+              }}
               className="news-item-sideinfocolumn"
               style={{
                 border: 'none',
