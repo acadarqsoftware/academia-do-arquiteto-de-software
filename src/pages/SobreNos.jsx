@@ -14,6 +14,7 @@ function SobreNos() {
         {/* Coluna principal */}
         <div className="col-lg-9 mb-4">
           <Team />
+          {/* Comentário */}
         </div>
 
         {/* Coluna lateral */}
