@@ -66,16 +66,16 @@ const CardInfoPalestra = () => {
 
       {/* Botões fixos */}
       <div className="botoes-container">
-        <button className="btn btn-primary">
+        
           <a
             href="https://www.linkedin.com/posts/academia-do-arquiteto-de-software_neste-%C3%BAltimo-s%C3%A1bado-tivemos-a-abertura-do-activity-7345581059683549185-OVB6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEdWWKMBFbVozcsMUbdVeyiyYgUkMZlZuqw"
             target="_blank"
             rel="noopener noreferrer"
-            className="link-inscreva-se"
+            className="btn btn-primary"
           >
             Saiba mais
           </a>
-        </button>
+       
         <button className="btn btn-primary" disabled>
           <a
             href="https://forms.gle/3fFBLLaWTYWFLbv4A"
