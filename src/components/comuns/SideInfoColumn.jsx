@@ -12,9 +12,10 @@ const newsList = [
   {
     id: 1,
     image: eventoinaugural,
-    title: 'Obrigado a todos que participaram do evento!',
+    title: 'Evento Inaugural: Obrigado a todos que participaram!',
     date: '29/06/2025',
-    externalLink: 'https://www.linkedin.com/posts/academia-do-arquiteto-de-software_neste-%C3%BAltimo-s%C3%A1bado-tivemos-a-abertura-do-activity-7345581059683549185-OVB6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEdWWKMBFbVozcsMUbdVeyiyYgUkMZlZuqw',
+    externalLink:
+      'https://www.linkedin.com/posts/academia-do-arquiteto-de-software_neste-%C3%BAltimo-s%C3%A1bado-tivemos-a-abertura-do-activity-7345581059683549185-OVB6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEdWWKMBFbVozcsMUbdVeyiyYgUkMZlZuqw',
   },
   {
     id: 2,

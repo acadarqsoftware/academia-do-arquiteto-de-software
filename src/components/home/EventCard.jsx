@@ -2,16 +2,48 @@ import React from 'react';
 import './EventCard.css';
 import EventCardItem from './EventCardItem.jsx';
 
-// Lista de eventos
+import Palestrante1 from '../../assets/palestra-info/erik-aceiro.jpg';
+import Palestrante2 from '../../assets/palestra-info/guilherme-menaldo-teste.jpg';
+
+import Foto1 from '../../assets/palestra-info/palestra28-06-25/foto1.jpg';
+import Foto2 from '../../assets/palestra-info/palestra28-06-25/foto2.jpg';
+import Foto3 from '../../assets/palestra-info/palestra28-06-25/foto3.jpeg';
+
 const events = [
   {
-    title: 'Evento de Inaugural',
+    title: 'Evento Inaugural',
     date: '2025-06-28',
-    description: 'Agradecemos a todos que participaram do nosso primeiro evento! Confira todas as fotos tiradas no evento!',
-    link: 'https://photos.app.goo.gl/tLRQUtsfMdte8RiD8',
-  },
+    description:
+      'Agradecemos a todos que participaram! Veja como foi o evento, palestrantes e fotos!',
+    longDescription: `No dia 28 de junho de 2025, a Academia do Arquiteto de Software realizou seu evento de abertura, marcando o início das atividades do projeto de extensão.
 
-  // outros eventos
+A abertura foi conduzida pelo professor Frank José Affonso, seguida pela palestra de Erik Aceiro, com o tema "Além do Código: A Jornada de Dev, Arquiteto de Software e Staff Engineer", abordando caminhos de carreira e competências essenciais para o desenvolvimento profissional.
+
+Na sequência, Guilherme Menaldo apresentou sobre boas práticas e escolhas estratégicas para a construção de softwares estáveis e projetos bem-sucedidos, destacando também a importância da comunicação e do trabalho em equipe.
+
+O evento foi encerrado com os agradecimentos do professor Frank José Affonso e o convite para os próximos encontros do projeto.`,
+    inscrever: '',
+    linkfotos:
+      'https://photos.google.com/share/AF1QipNdO_gHV3kkUOwoP_sw6KxQofA2FAiaGp8yEu8mcvhD0wXqVE2lcrSsnny8VwwidA?key=ZGcycEk0NE1yRFhfQi1FVFc4VlNIZkNNZ1dDc3hn',
+    fotos: [Foto1, Foto2, Foto3],
+    palestras: [
+      {
+        nome: 'Erik Aceiro',
+        titulo: 'Além do Código: A Jornada de Dev, Arquiteto de Software e Staff Engineer',
+        imagem: Palestrante1,
+        link: 'https://www.linkedin.com/in/erikaceiro/',
+        slides:
+          'https://media.licdn.com/dms/document/media/v2/D4D1FAQGT0Ud9WuEREA/feedshare-document-pdf-analyzed/B4DZfs0ofMHAAc-/0/1752024917026?e=1753315200&v=beta&t=fTWsLz-WSq-1vPIuWuVbRL2q8Z4kYFP5omZc7PwrIIg',
+      },
+      {
+        nome: 'Guilherme Menaldo',
+        titulo: 'Por que Arquitetura de Software Importa?',
+        imagem: Palestrante2,
+        link: 'https://www.linkedin.com/in/ggmenaldo/',
+        slides: 'https://drive.google.com/file/d/1nYQQCkahBYvCNBCXk7OxDGFCeSW1FWOm/view',
+      },
+    ],
+  },
 ];
 
 // Ordena os eventos

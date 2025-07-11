@@ -25,7 +25,7 @@ function BannerCarousel() {
     {
       image: isMobile ? banner2Mobile : banner2Desktop,
       title: 'Evento de abertura ocorreu no dia 28/06!',
-      text: 'Confira todas as fotos do evento aqui embaixo!',
+      text: 'Veja como foi!',
       link: '/eventos',
       delay: 8000,
       buttonText: 'Veja aqui embaixo ',
