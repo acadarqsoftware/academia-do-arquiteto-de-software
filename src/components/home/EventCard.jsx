@@ -19,7 +19,7 @@ const events = [
 
 A abertura foi conduzida pelo professor Frank José Affonso, seguida pela palestra de Erik Aceiro, com o tema "Além do Código: A Jornada de Dev, Arquiteto de Software e Staff Engineer", abordando caminhos de carreira e competências essenciais para o desenvolvimento profissional.
 
-Na sequência, Guilherme Menaldo apresentou sobre boas práticas e escolhas estratégicas para a construção de softwares estáveis e projetos bem-sucedidos, destacando também a importância da comunicação e do trabalho em equipe.
+Já na segunda palestra, "Por que Arquitetura de Software Importa?", Guilherme Menaldo apresentou sobre boas práticas e escolhas estratégicas para a construção de softwares estáveis e projetos bem-sucedidos, destacando também a importância da comunicação e do trabalho em equipe.
 
 O evento foi encerrado com os agradecimentos do professor Frank José Affonso e o convite para os próximos encontros do projeto.`,
     inscrever: '',
