@@ -24,8 +24,8 @@ function BannerCarousel() {
   const banners = [
     {
       image: isMobile ? banner2Mobile : banner2Desktop,
-      title: 'Evento de abertura - 2º semestre de 2025',
-      text: 'Venha participar do evento inaugural do programa',
+      title: 'Evento de abertura ocorreu no dia 28/06!',
+      text: 'Veja como foi!',
       link: '/eventos',
       delay: 8000,
       buttonText: 'Veja aqui embaixo ',

@@ -9,14 +9,13 @@ lerna-debug.log*
 
 # Dependências
 node_modules/
-node_modules/
-node_modules/.vite
-
-*.vite/deps
 
 # Build output (ignorar no repositório principal, usada apenas para deploy)
 dist/
 dist-ssr/
+
+node_modules/
+assets/
 
 # Arquivos locais e configs de ambiente
 *.local

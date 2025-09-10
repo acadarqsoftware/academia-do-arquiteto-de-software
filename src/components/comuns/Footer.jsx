@@ -38,7 +38,11 @@ function Footer() {
               >
                 <img src={youtubeIcon} alt="YouTube" width="30" height="30" />
               </a>
-              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.linkedin.com/company/academia-do-arquiteto-de-software/posts/?feedView=all"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={linkedinIcon} alt="LinkedIn" width="30" height="30" />
               </a>
             </div>
@@ -91,17 +95,17 @@ function Footer() {
               <li className="align-items-center mb-2 lead">
                 <img src={phoneIcon} alt="E-mail" className="me-2 icon-footer-contact" />
 
-                <span className="small">(99) 99999-9999</span>
+                <span className="small">(19) 3526-9137</span>
               </li>
               <li className="align-items-center mb-2 lead">
                 <img src={instagramIcon} alt="E-mail" className="me-2 icon-footer-contact" />
 
-                <span className="small">@aa.softwareunesp</span>
+                <span className="small">@acadarqsoftware</span>
               </li>
               <li className="align-items-center mb-2 lead">
                 <img src={linkedinIcon} alt="E-mail" className="me-2 icon-footer-contact" />
 
-                <span className="small">LinkedIn</span>
+                <span className="small">Academia do Arquiteto de Software</span>
               </li>
             </ul>
           </div>
