@@ -7,8 +7,18 @@ import popupEventoDesktop from '../../assets/popup/eventoinaugural-desktop.jpg';
 import popupEventoMobile from '../../assets/popup/eventoinaugural-mobile.jpg';
 import Popup from './Popup';
 
+import evento300825 from '../../assets/noticias/noticiaevento30-08-25/evento30-08-25.jpg';
+
 // Para adicionar mais notícias, insira novos objetos neste array:
 const newsList = [
+    {
+    id: 3,
+    image: evento300825,
+    title: 'Evento de Arq. Orientada a Eventos e Micro Frontends: Obrigado por participarem!',
+    date: '10/09/2025',
+    externalLink:
+      'https://www.linkedin.com/posts/academia-do-arquiteto-de-software_no-nosso-%C3%BAltimo-evento-realizado-no-dia-activity-7371512839859068928-3MD5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEdWWKMBFbVozcsMUbdVeyiyYgUkMZlZuqw',
+  },
   {
     id: 1,
     image: eventoinaugural,
@@ -17,6 +27,7 @@ const newsList = [
     externalLink:
       'https://www.linkedin.com/posts/academia-do-arquiteto-de-software_neste-%C3%BAltimo-s%C3%A1bado-tivemos-a-abertura-do-activity-7345581059683549185-OVB6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEdWWKMBFbVozcsMUbdVeyiyYgUkMZlZuqw',
   },
+
   {
     id: 2,
     image: newsImg2,

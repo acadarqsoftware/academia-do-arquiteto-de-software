@@ -24,8 +24,8 @@ function BannerCarousel() {
   const banners = [
     {
       image: isMobile ? banner2Mobile : banner2Desktop,
-      title: 'Evento de abertura ocorreu no dia 28/06!',
-      text: 'Veja como foi!',
+      title: 'Obrigado a todos!',
+      text: 'Veja como foi o último evento (30/08) da Academia do Arquitetura de Software!',
       link: '/eventos',
       delay: 8000,
       buttonText: 'Veja aqui embaixo ',

@@ -2,12 +2,21 @@ import React from 'react';
 import './EventCard.css';
 import EventCardItem from './EventCardItem.jsx';
 
-import Palestrante1 from '../../assets/palestra-info/erik-aceiro.jpg';
-import Palestrante2 from '../../assets/palestra-info/guilherme-menaldo-teste.jpg';
+import ErikAceiro from '../../assets/palestra-info/palestra28-06-25/erik-aceiro.jpg';
+import GuilhermeMenaldo from '../../assets/palestra-info/palestra28-06-25/guilherme-menaldo-teste.jpg';
 
-import Foto1 from '../../assets/palestra-info/palestra28-06-25/foto1.jpg';
-import Foto2 from '../../assets/palestra-info/palestra28-06-25/foto2.jpg';
-import Foto3 from '../../assets/palestra-info/palestra28-06-25/foto3.jpeg';
+import MatheusBarros from '../../assets/palestra-info/palestra30-08-25/matheusBarros.png';
+import FernandoMoraes from '../../assets/palestra-info/palestra30-08-25/fernandoMoraes.png';
+
+import Foto1Inaugural from '../../assets/palestra-info/palestra28-06-25/foto1.jpg';
+import Foto2Inaugural from '../../assets/palestra-info/palestra28-06-25/foto2.jpg';
+import Foto3Inaugural from '../../assets/palestra-info/palestra28-06-25/foto3.jpeg';
+
+
+import Foto1Evento300825 from '../../assets/palestra-info/palestra30-08-25/Foto1Evento30-08-25.jpg';
+import Foto2Evento300825 from '../../assets/palestra-info/palestra30-08-25/Foto2Evento30-08-25.jpg';
+import Foto3Evento300825 from '../../assets/palestra-info/palestra30-08-25/Foto3Evento30-08-25.jpg';
+
 
 const events = [
   {
@@ -25,22 +34,56 @@ O evento foi encerrado com os agradecimentos do professor Frank José Affonso e 
     inscrever: '',
     linkfotos:
       'https://photos.google.com/share/AF1QipNdO_gHV3kkUOwoP_sw6KxQofA2FAiaGp8yEu8mcvhD0wXqVE2lcrSsnny8VwwidA?key=ZGcycEk0NE1yRFhfQi1FVFc4VlNIZkNNZ1dDc3hn',
-    fotos: [Foto1, Foto2, Foto3],
+    fotos: [Foto1Inaugural, Foto2Inaugural, Foto3Inaugural],
     palestras: [
       {
         nome: 'Erik Aceiro',
         titulo: 'Além do Código: A Jornada de Dev, Arquiteto de Software e Staff Engineer',
-        imagem: Palestrante1,
+        imagem: ErikAceiro,
         link: 'https://www.linkedin.com/in/erikaceiro/',
         slides:
-          'https://media.licdn.com/dms/document/media/v2/D4D1FAQGT0Ud9WuEREA/feedshare-document-pdf-analyzed/B4DZfs0ofMHAAc-/0/1752024917026?e=1753315200&v=beta&t=fTWsLz-WSq-1vPIuWuVbRL2q8Z4kYFP5omZc7PwrIIg',
+          'https://drive.google.com/file/d/1a_K9JrRze4u5C0UlvVJQkXmzgxsPXSNN/view?usp=sharing',
       },
       {
         nome: 'Guilherme Menaldo',
         titulo: 'Por que Arquitetura de Software Importa?',
-        imagem: Palestrante2,
+        imagem: GuilhermeMenaldo,
         link: 'https://www.linkedin.com/in/ggmenaldo/',
         slides: 'https://drive.google.com/file/d/1nYQQCkahBYvCNBCXk7OxDGFCeSW1FWOm/view',
+      },
+    ],
+  },
+  {
+    title: 'Arquitetura Orientada a Eventos & Micro Frontends',
+    date: '2025-08-30',
+    description:
+      'Obrigado a todos que participaram! Veja um pouco mais sobre o resumo do evento!',
+    longDescription: `No dia 30 de agosto de 2025, a Academia do Arquiteto de Software realizou mais um encontro do projeto de extensão, reunindo estudantes e profissionais interessados em arquitetura de software.
+
+A primeira palestra, "Eventos: Revoluções em Tempo Real", foi conduzida por Matheus Barros, que abordou arquitetura orientada a eventos, explicando como sistemas reativos e escaláveis podem ser construídos e como essa abordagem impacta o desenvolvimento de software moderno.
+
+Em seguida, Fernando Moraes apresentou "Mergulhando na Arquitetura Micro Frontends", explorando estratégias para decomposição de aplicações web em módulos independentes, destacando benefícios de manutenção, escalabilidade e colaboração entre equipes.
+
+O evento foi encerrado com um momento especial de interação com o público, incluindo um sorteio de canecas, garrafas e chaveiros do Projeto, além de divulgação e apoio da comunidade Dev Rio Claro.`,
+    inscrever: '',
+    linkfotos:
+      'https://photos.app.goo.gl/Gpvj715Mxg7xx2hp6',
+    fotos: [Foto1Evento300825, Foto2Evento300825, Foto3Evento300825],
+    palestras: [
+      {
+        nome: 'Matheus Barros',
+        titulo: 'Eventos: Revoluções em Tempo Real',
+        imagem: MatheusBarros,
+        link: 'https://www.linkedin.com/in/barros42/',
+        slides:
+          'https://drive.google.com/file/d/1VekK6E3XkK2qz6Tr6Tk2y_sXGcxSQYy2/view?usp=sharing',
+      },
+      {
+        nome: 'Fernando Moraes',
+        titulo: 'Mergulhando na Arquitetura de Micro Frontends',
+        imagem: FernandoMoraes,
+        link: 'https://www.linkedin.com/in/fernando-moraes-4aab55135/ ',
+        slides: 'https://drive.google.com/file/d/1NAVVTB1bT-_olUXDDDL7L68sIemuYj8T/view?usp=sharing',
       },
     ],
   },
