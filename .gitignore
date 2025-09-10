@@ -15,7 +15,8 @@ dist/
 dist-ssr/
 
 node_modules/
-assets/
+
+
 
 # Arquivos locais e configs de ambiente
 *.local
