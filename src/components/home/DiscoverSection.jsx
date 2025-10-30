@@ -4,13 +4,13 @@ import artigoIcon from '../../assets/icons/artigo.png';
 import cursoIcon from '../../assets/icons/curso.png';
 
 // Importa o estilo CSS da seção
-import './VerticalCardSection.css';
+import './DiscoverSection.css';
 
 // Importa o componente Link do React Router para navegação interna
 import { Link } from 'react-router-dom';
 
 // Componente funcional que exibe uma seção de três cards verticais
-function VerticalCardSection() {
+function DiscoverSection() {
   // Vetor com os dados dos cards que serão renderizados dinamicamente
   const features = [
     {
@@ -64,4 +64,4 @@ function VerticalCardSection() {
   );
 }
 
-export default VerticalCardSection;
+export default DiscoverSection;

@@ -1,7 +1,17 @@
 import React, { useEffect } from 'react';
-import './EventPopup.css';
+import './ShowMoreInfo.css';
 import CardInfoPalestra from './CardInfoPalestra.jsx';
 import EventCarousel from './EventCarousel.jsx';
+
+
+/* 
+  ShowMoreInfo.jsx consome informações do eventos (título, descrição longa, 
+  palestras, fotos, links das fotos e link para inscrição) de InfoEvents.jsx,
+  e mostra elas dentro do cartão do evento selecionado (Saiba Mais).
+
+
+*/
+
 
 const EventPopup = ({ event, onClose }) => {
   const handleOverlayClick = (e) => {

@@ -1,7 +1,16 @@
 import React, { useState } from 'react';
-import './EventCard.css';
-import eventBg from '../../assets/eventos-cursos/event-card-bg.jpg';
-import EventPopup from './EventPopup.jsx';
+import '../InfoEvents.css';
+import eventBg from '../../../../assets/eventos-cursos/event-card-bg.jpg';
+import EventPopup from '../insideCard/ShowMoreInfo.jsx';
+
+
+/* 
+  EventCardItem.jsx consome as informações de data, título, descrição curta e link de inscrição
+  dos Eventos de InfoEvents.jsx e renderiza elas. Ele também mostra os botões de Inscrição e de Saiba Mais.
+  O EventCardItem.jsx também chama ShowMoreInfo.jsx no caso do usuário clicar em "Saiba Mais", que irá 
+  abrir um popup com mais informações do evento.
+
+*/
 
 const EventCardItem = ({ event, showPalestraInfo }) => {
   const [showPopup, setShowPopup] = useState(false);

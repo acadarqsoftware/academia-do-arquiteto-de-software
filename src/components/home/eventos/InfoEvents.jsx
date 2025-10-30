@@ -1,21 +1,25 @@
 import React from 'react';
-import './EventCard.css';
-import EventCardItem from './EventCardItem.jsx';
+import './InfoEvents.css';
+import EventCardItem from './outsideCard/EventCardItem.jsx';
 
-import ErikAceiro from '../../assets/palestra-info/palestra28-06-25/erik-aceiro.jpg';
-import GuilhermeMenaldo from '../../assets/palestra-info/palestra28-06-25/guilherme-menaldo-teste.jpg';
+import ErikAceiro from '../../../assets/palestra-info/palestra28-06-25/erik-aceiro.jpg';
+import GuilhermeMenaldo from '../../../assets/palestra-info/palestra28-06-25/guilherme-menaldo-teste.jpg';
 
-import MatheusBarros from '../../assets/palestra-info/palestra30-08-25/matheusBarros.png';
-import FernandoMoraes from '../../assets/palestra-info/palestra30-08-25/fernandoMoraes.png';
+import MatheusBarros from '../../../assets/palestra-info/palestra30-08-25/matheusBarros.png';
+import FernandoMoraes from '../../../assets/palestra-info/palestra30-08-25/fernandoMoraes.png';
 
-import Foto1Inaugural from '../../assets/palestra-info/palestra28-06-25/foto1.jpg';
-import Foto2Inaugural from '../../assets/palestra-info/palestra28-06-25/foto2.jpg';
-import Foto3Inaugural from '../../assets/palestra-info/palestra28-06-25/foto3.jpeg';
+import KellyReis from '../../../assets/palestra-info/palestra29-11-25/kellyReis.png';
+import MairaScomparim from '../../../assets/palestra-info/palestra29-11-25/mairaScomparim.png';
+import MarianaFantini from '../../../assets/palestra-info/palestra29-11-25/marianaFantini.jpg';
+
+import Foto1Inaugural from '../../../assets/palestra-info/palestra28-06-25/foto1.jpg';
+import Foto2Inaugural from '../../../assets/palestra-info/palestra28-06-25/foto2.jpg';
+import Foto3Inaugural from '../../../assets/palestra-info/palestra28-06-25/foto3.jpeg';
 
 
-import Foto1Evento300825 from '../../assets/palestra-info/palestra30-08-25/Foto1Evento30-08-25.jpg';
-import Foto2Evento300825 from '../../assets/palestra-info/palestra30-08-25/Foto2Evento30-08-25.jpg';
-import Foto3Evento300825 from '../../assets/palestra-info/palestra30-08-25/Foto3Evento30-08-25.jpg';
+import Foto1Evento300825 from '../../../assets/palestra-info/palestra30-08-25/Foto1Evento30-08-25.jpg';
+import Foto2Evento300825 from '../../../assets/palestra-info/palestra30-08-25/Foto2Evento30-08-25.jpg';
+import Foto3Evento300825 from '../../../assets/palestra-info/palestra30-08-25/Foto3Evento30-08-25.jpg';
 
 
 const events = [
@@ -84,6 +88,37 @@ O evento foi encerrado com um momento especial de interação com o público, in
         imagem: FernandoMoraes,
         link: 'https://www.linkedin.com/in/fernando-moraes-4aab55135/ ',
         slides: 'https://drive.google.com/file/d/1NAVVTB1bT-_olUXDDDL7L68sIemuYj8T/view?usp=sharing',
+      },
+    ],
+  },
+  {
+    title: 'Arquitetura Moderna: Padrões, Segurança e DevEx',
+    date: '2025-11-29',
+    description:
+      'Venha entender como boas decisões arquiteturais e experiências de desenvolvedores impulsionam sistemas modernos, seguros e colaborativos.',
+    longDescription: `Vamos explorar os padrões de arquitetura que garantem sistemas seguros e escaláveis, aprender sobre as arquiteturas de referência da AWS (Segurança, Web e Data Lake) e como fazer discovery técnico efetivo para transformar a experiência dos desenvolvedores em times multidisciplinares.`,
+    inscrever: 'https://forms.gle/wXZ9QRDCMoinKsm8A',
+    linkfotos:
+      '',
+    fotos: [],
+    palestras: [
+      {
+        nome: 'Maira Scomparim ',
+        nome2:'Kelly Reis',
+        titulo: 'Desenhando Arquiteturas, Desconstruindo Barreiras',
+        imagem: KellyReis,
+        imagem2: MairaScomparim,
+        link: 'https://www.linkedin.com/in/maira-scomparim-1a44b1190/ ',
+        link2:'https://www.linkedin.com/in/keellyreis/',
+        slides:
+          '',
+      },
+      {
+        nome: 'Mariana Fantini',
+        titulo: 'Arquitetura de Software em Developer Experience: Como fazer discovery de arquitetura em times multidisciplinares',
+        imagem: MarianaFantini,
+        link: 'https://www.linkedin.com/in/marianafantini/',
+        slides: '',
       },
     ],
   },
