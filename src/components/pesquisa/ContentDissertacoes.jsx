@@ -44,6 +44,16 @@ function ContentDissertacoes() {
         'Universidade Estadual Paulista (UNESP), Instituto de Geociências e Ciências Exatas (IGCE), Rio Claro',
       url: 'https://repositorio.unesp.br/items/407d5610-09e1-404e-94b3-0ac8b42db807',
     },
+    {
+      title:
+        'Modernização de Sistemas Legados em Delphi para Arquitetura de Microsserviços',
+      data: '2022',
+      autores: 'Fávero, Lucas Fernando',
+      nota: 'Programa de Pós-Graduação em Ciência da Computação (PPGCC/Unesp)',
+      escola:
+        'Universidade Estadual Paulista (UNESP), Instituto de Geociências e Ciências Exatas (IGCE), Rio Claro',
+      url: 'https://repositorio.unesp.br/entities/publication/aff922a6-25d6-4ca3-a653-612ce4f017f6',
+    },
   ];
 
   // Ordena por ano (do mais recente para o mais antigo)

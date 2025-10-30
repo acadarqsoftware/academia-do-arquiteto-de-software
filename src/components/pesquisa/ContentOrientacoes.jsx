@@ -40,14 +40,6 @@ function ContentOrientacoes() {
         'Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual Paulista Júlio de Mesquita Filho',
       url: 'http://lattes.cnpq.br/1947433919425425',
     },
-    {
-      title: 'Tema da dissertação: Modernização de Sistemas Legados em Delphi para Arquitetura de Microsserviços',
-      data: '2022',
-      autores: 'Lucas Fernando Fávero',
-      publicacao:
-        'Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual Paulista Júlio de Mesquita Filho',
-      url: 'http://lattes.cnpq.br/0548860613594021',
-    },
   ];
 
   // Lista de orientações de Doutorado em andamento

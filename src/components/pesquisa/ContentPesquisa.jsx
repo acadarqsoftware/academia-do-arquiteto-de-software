@@ -87,6 +87,13 @@ function ContentPesquisa() {
       publicacao: 'IEEE Access, v. 12, p. 97476–97499',
       url: 'https://doi.org/10.1109/ACCESS.2024.3428368',
     },
+    {
+      title: 'A Systematic Mapping Study on the Modernization of Legacy Systems to Microservice Architecture',
+      data: '2025-06-11',
+      autores: 'Fávero, Lucas Fernando; Rodrigues de Almeida, Nathalia; Affonso, Frank José',
+      publicacao: 'Applied System Innovation 8, no. 4: 86',
+      url: 'https://doi.org/10.3390/asi8040086',
+    },
     //Adicione novas pesquisas aqui
   ];
 
