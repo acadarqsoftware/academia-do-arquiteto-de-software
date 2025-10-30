@@ -1,4 +1,4 @@
-import frank from '../../assets/team/frank.jpg';  // Foto do coordenador
+import frank from '../../assets/team/frank.png';  // Foto do coordenador
 import phone from '../../assets/redes-sociais/phone.svg'; // Ícone telefone
 import mail from '../../assets/redes-sociais/mail.svg';   // Ícone email
 

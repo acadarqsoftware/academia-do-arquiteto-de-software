@@ -8,7 +8,7 @@ import xIcon from '../../assets/redes-sociais/x.svg';
 import mailIcon from '../../assets/redes-sociais/mail.svg';
 
 // Importa fotos dos membros
-import member1 from '../../assets/team/frank.jpg';
+import member1 from '../../assets/team/frank.png';
 import member2 from '../../assets/team/orlando.jpg';
 import member3 from '../../assets/team/veronica.jpg';
 import member4 from '../../assets/team/pedronette.jpg';

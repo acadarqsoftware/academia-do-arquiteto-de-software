@@ -1,10 +1,10 @@
 import BannerCarousel from '../components/home/BannerCarousel.jsx';
-import VerticalCardSection from '../components/home/VerticalCardSection.jsx';
+import DiscoverSection from '../components/home/DiscoverSection.jsx';
 import SideInfoColumn from '../components/comuns/SideInfoColumn.jsx';
 import BannerYoutube from '../components/home/BannerYoutube.jsx';
-import EventCard from '../components/home/EventCard.jsx';
-import CoursesSection from '../components/home/CoursesSection.jsx';
-import CardInfoPalestra from '../components/home/CardInfoPalestra.jsx';
+import EventCard from '../components/home/eventos/InfoEvents.jsx';
+import CoursesSection from '../components/home/outrasAtividades/CoursesSection.jsx';
+import CardInfoPalestra from '../components/home/eventos/insideCard/CardInfoPalestra.jsx';
 
 function Home() {
   return (
@@ -21,7 +21,7 @@ function Home() {
             {/*<CardInfoPalestra />*/}
           </section>
 
-          <VerticalCardSection />
+          <DiscoverSection />
           <CoursesSection limit={3} />
         </div>
 
