@@ -108,7 +108,7 @@ O evento foi encerrado com um momento especial de interação com o público, in
         titulo: 'Desenhando Arquiteturas, Desconstruindo Barreiras',
         imagem: KellyReis,
         imagem2: MairaScomparim,
-        link: 'https://www.linkedin.com/in/maira-scomparim-1a44b1190/ ',
+        link: null,
         link2:'https://www.linkedin.com/in/keellyreis/',
         slides:
           '',
