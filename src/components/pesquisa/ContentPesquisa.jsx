@@ -126,7 +126,7 @@ function ContentArtigosPublicados() {
       data: '2025',
       autores: 'Almeida, N. R.; Favaro, L. F.; Affonso, F. J.',
       publicacio: 'Proceedings of 20th Iberian Conference on Information Systems and Technologies (CISTI 2025), 2025',
-      url: '',
+      url: null,
     },
     {
       title: 'Modernization of Legacy Systems to Microservice Architecture: A Tertiary Study',
@@ -191,28 +191,28 @@ function ContentArtigosPublicados() {
       data: '2016',
       autores: 'Affonso, F. J.; Leite, G.; Nakagawa, E. Y.',
       publicacao: 'The 28th International Conference on Software Engineering & Knowledge Engineering (SEKE 2016), 2016. p. 617-622',
-      url: '',
+      url: null,
     },
     {
       title: 'Integrando Sistemas de Informação via Serviço Web: Um Estudo de Caso na Defesa Civil de Rio Claro',
       data: '2015',
       autores: 'Affonso, F. J.; Carneiro, M. C. V. S.; Carneiro, J. G. V.; Kuroishi, D. A.; Polezi, L. A.; Benato, G. S.; Fernando, F. A.; Carvalho, V. O.; Govone, J. S.; Nourani, F.; Falcao, J. G.; Cattani, J. G. Z.',
       publicacao: '8º Congresso de Extensão Universitária da UNESP, 2015. v. 8',
-      url: '',
+      url: null,
     },
     {
       title: 'Informatizando a Gestão dos Microempreendedores Individuais de Rio Claro',
       data: '2015',
       autores: 'Carvalho, V. O.; Affonso, F. J.; Oliveira, R. S.; Pacheco, M. V.; Nascimento Junior, O. S.; Nourani, F.; Padua, R.; Moraes, N. C. D.',
       publicacao: '8º Congresso de Extensão Universitária da UNESP, 2015. v. 8',
-      url: '',
+      url: null,
     },
     {
       title: 'A Framework Based on Learning Techniques for Decision-making in Self-adaptive Software',
       data: '2015',
       autores: 'Affonso, F. J.; Leite, G.; Oliveira, R. A. P.; Nakagawa, E. Y.',
       publicacao: 'The 27th International Conference on Software Engineering & Knowledge Engineering (SEKE 2015), 2015. p. 24-29',
-      url: '',
+      url: null,
     },
     {
       title: 'Reference Architectures for Self-Managed Software Systems: A Systematic Literature Review',
@@ -226,7 +226,7 @@ function ContentArtigosPublicados() {
       data: '2014',
       autores: 'Souza, S. D. M.; Affonso, F. J.; Nakagawa, E. Y.',
       publicacao: 'V Workshop on Autonomous Software Systems (AutoSoft 2014), 2014',
-      url: '',
+      url: null,
     },
     {
       title: 'A Reference Architecture Based on Reflection for Self-Adaptive Software',
@@ -240,7 +240,7 @@ function ContentArtigosPublicados() {
       data: '2012',
       autores: 'Affonso, F. J.; Rodrigues, E. L. L.',
       publicacao: 'The 24th International Conference on Software Engineering and Knowledge Engineering, 2012',
-      url: '',
+      url: null,
     },
   ];
 
