@@ -1,84 +1,46 @@
 // Importa os ícones usados para mestrado e doutorado
-import orientacoesMestrado from '../../assets/icons/iconM.png';
-import orientacoesDoutorado from '../../assets/icons/iconD.png';
+import orientacoesMestrado from '../../../assets/icons/iconM.png';
+import orientacoesDoutorado from '../../../assets/icons/iconD.png';
+
 
 // Importa o arquivo de estilos CSS específico deste componente
 import './ContentOrientacoes.css';
+import { useEffect, useState } from 'react';
 
 function ContentOrientacoes() {
-  // Lista de orientações de Mestrado em andamento
-  const mestrados = [
-    {
-      title: 'Tema da dissertação: A definir',
-      data: '2025',
-      autores: 'Daniel de Almeida',
-      publicacao:
-        'Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual Paulista Júlio de Mesquita Filho',
-      url: 'http://lattes.cnpq.br/7012017033083102',
-    },
-    {
-      title: 'Tema da dissertação: A definir',
-      data: '2025',
-      autores: 'João Pedro Vieira Brodt',
-      publicacao:
-        'Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual Paulista Júlio de Mesquita Filho',
-      url: 'https://br.linkedin.com/in/jo%C3%A3o-pedro-vieira-brodt-656544169?original_referer=https%3A%2F%2Fwww.google.com%2F',
-    },
-    {
-      title: 'Tema da dissertação: A definir',
-      data: '2025',
-      autores: 'José William Pinto Gomes',
-      publicacao:
-        'Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual Paulista Júlio de Mesquita Filho',
-      url: 'http://lattes.cnpq.br/7012017033083102',
-    },
-    {
-      title: 'Tema da dissertação:  Modernização de Sistemas Legados em para Arquitetura de Microsserviços',
-      data: '2023',
-      autores: 'Nathalia Rodrigues de Almeida',
-      publicacao:
-        'Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual Paulista Júlio de Mesquita Filho',
-      url: 'http://lattes.cnpq.br/1947433919425425',
-    },
-  ];
 
-  // Lista de orientações de Doutorado em andamento
-  const doutorados = [
-    {
-      title: 'Tema da dissertação: Desenvolvimento de Software baseado em Micro Frontends',
-      data: '2023',
-      autores: 'Fernando Rodrigues de Moraes',
-      publicacao:
-        'Tese (Doutorado em Ciência da Computação) - Universidade Estadual Paulista Júlio de Mesquita Filho',
-      url: 'http://lattes.cnpq.br/7173809746210421',
-    },
-    {
-      title: 'Tema da dissertação: A definir',
-      data: '2025',
-      autores: 'Ronaldo Rodrigues Martins',
-      publicacao:
-        'Tese (Doutorado em Ciência da Computação) - Universidade Estadual Paulista Júlio de Mesquita Filho',
-      url: 'http://lattes.cnpq.br/7099148763256951',
-    },
-  ];
+  const [doutorados, setDoutorados] = useState([]);
+  const [mestrados, setMestrados] = useState([]);
 
-  // Função para ordenar os itens por data (do mais recente para o mais antigo)
-  const ordenarPorData = (items) => {
-    return [...items].sort((a, b) => {
-      const da = new Date(a.data);
-      const db = new Date(b.data);
-      return db - da;
-    });
-  };
+  const baseUrl = import.meta.env.BASE_URL;
 
-  // Função utilitária que extrai apenas o ano de uma data
-  const extrairAno = (dataCompleta) => {
-    return dataCompleta.split('/')[0];
-  };
+  useEffect(() => {
+    fetch(`${baseUrl}/pesquisa/orientacoes/doutorados.json`)
+    .then((response) => response.json())
+    .then((data) =>{
+      const doutoradosOrdenados = [...data].sort((a, b) =>{
+        return parseInt(b.data) - parseInt(a.data);
+      });
+      setDoutorados(doutoradosOrdenados);
+    })
+    .catch((error) => console.error('erro ao buscar eventos: ', error));
 
-  // Aplicação da ordenação
-  const mestradosOrdenados = ordenarPorData(mestrados);
-  const doutoradosOrdenados = ordenarPorData(doutorados);
+  }, []);
+
+    useEffect(() => {
+    fetch(`${baseUrl}/pesquisa/orientacoes/mestrados.json`)
+    .then((response) => response.json())
+    .then((data) =>{
+      const mestradosOrdenados = [...data].sort((a, b) =>{
+        return parseInt(b.data) - parseInt(a.data);
+      });
+      setMestrados(mestradosOrdenados);
+    })
+    .catch((error) => console.error('erro ao buscar eventos: ', error));
+
+  }, []);
+
+
 
   return (
     <section id="orientacoes" className="container-fluid px-5 my-5">
@@ -94,7 +56,7 @@ function ContentOrientacoes() {
 
       {/* Renderização dos cartões de Mestrado */}
       <div className="row g-4">
-        {mestradosOrdenados.map((item, idx) => (
+        {mestrados.map((item, idx) => (
           <div key={`mestrado-${idx}`} className="col-12">
             <a
               href={item.url}
@@ -107,7 +69,7 @@ function ContentOrientacoes() {
                 <div>
                   <h5 className="mb-1 info-dissertacaoori">{item.title}</h5>
                   <p className="info-dissertacaoori mb-1 text-muted">
-                    <strong>Ano:</strong> {extrairAno(item.data)}
+                    <strong>Ano:</strong> {item.data}
                   </p>
                   <p className="info-dissertacaoori mb-1 text-muted">
                     <strong>Autores:</strong> {item.autores}
@@ -127,7 +89,7 @@ function ContentOrientacoes() {
 
       {/* Renderização dos cartões de Doutorado */}
       <div className="row g-4">
-        {doutoradosOrdenados.map((item, idx) => (
+        {doutorados.map((item, idx) => (
           <div key={`doutorado-${idx}`} className="col-12">
             <a
               href={item.url}
@@ -140,7 +102,7 @@ function ContentOrientacoes() {
                 <div>
                   <h5 className="mb-1 info-dissertacaoori">{item.title}</h5>
                   <p className="info-dissertacaoori mb-1 text-muted">
-                    <strong>Ano de início:</strong> {extrairAno(item.data)}
+                    <strong>Ano de início:</strong> {item.data}
                   </p>
                   <p className="info-dissertacaoori mb-1 text-muted">
                     <strong>Autores:</strong> {item.autores}

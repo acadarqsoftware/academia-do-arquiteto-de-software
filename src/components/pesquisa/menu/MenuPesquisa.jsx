@@ -1,8 +1,8 @@
 import React from 'react';
 // Importa os ícones usados em cada item do menu
-import artigoIcon from '../../assets/icons/iconArtigo.png';
-import orientacoesIcon from '../../assets/icons/iconOrient.png';
-import dissertacoesIcon from '../../assets/icons/iconDisser.png';
+import artigoIcon from '../../../assets/icons/iconArtigo.png';
+import orientacoesIcon from '../../../assets/icons/iconOrient.png';
+import dissertacoesIcon from '../../../assets/icons/iconDisser.png';
 // Importa o arquivo CSS específico para este menu
 import './MenuPesquisa.css';
 

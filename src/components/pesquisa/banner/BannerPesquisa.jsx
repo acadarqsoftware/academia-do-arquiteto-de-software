@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import './BannerPesquisa.css';
 
 // Importa imagens para diferentes tamanhos de tela
-import banner3Mobile from '../../assets/carrossel/banner-mobile3.jpg';
-import banner3Desktop from '../../assets/carrossel/banner3.jpg';
+import banner3Mobile from '../../../assets/carrossel/banner-mobile3.jpg';
+import banner3Desktop from '../../../assets/carrossel/banner3.jpg';
 
 function BannerPesquisa() {
   // Estado que controla se o dispositivo é mobile

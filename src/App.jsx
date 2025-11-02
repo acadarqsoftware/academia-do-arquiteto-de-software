@@ -11,8 +11,11 @@ import QuemSouEu from './pages/QuemSouEu.jsx';
 import ScrollToTop from './components/comuns/ScrollToTop.jsx';
 
 function App() {
+
+  const baseUrl = import.meta.env.BASE_URL;
+
   return (
-    <Router basename="/academia-do-arquiteto-de-software">
+    <Router basename={baseUrl}>
       <ScrollToTop />
       <Header />
       <Routes>
