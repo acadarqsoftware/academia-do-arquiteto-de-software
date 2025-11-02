@@ -1,0 +1,103 @@
+[
+  {
+    "title": "Evento Inaugural",
+    "date": "2025-06-28",
+    "description":
+      "Agradecemos a todos que participaram! Veja como foi o evento, palestrantes e fotos!",
+    "longDescription": "No dia 28 de junho de 2025, a Academia do Arquiteto de Software realizou seu evento de abertura, marcando o início das atividades do projeto de extensão.\n\n A abertura foi conduzida pelo professor Frank José Affonso, seguida pela palestra de Erik Aceiro, com o tema \"Além do Código: A Jornada de Dev, Arquiteto de Software e Staff Engineer\", abordando caminhos de carreira e competências essenciais para o desenvolvimento profissional.\n\n Já na segunda palestra, \"Por que Arquitetura de Software Importa?\", Guilherme Menaldo apresentou sobre boas práticas e escolhas estratégicas para a construção de softwares estáveis e projetos bem-sucedidos, destacando também a importância da comunicação e do trabalho em equipe.\n\n O evento foi encerrado com os agradecimentos do professor Frank José Affonso e o convite para os próximos encontros do projeto.",
+    "inscrever": "",
+    "linkfotos":
+      "https://photos.google.com/share/AF1QipNdO_gHV3kkUOwoP_sw6KxQofA2FAiaGp8yEu8mcvhD0wXqVE2lcrSsnny8VwwidA?key=ZGcycEk0NE1yRFhfQi1FVFc4VlNIZkNNZ1dDc3hn",
+    "fotos": ["assets/eventos/evento-inaugural/foto1.jpg", "assets/eventos/evento-inaugural/foto2.jpg", "assets/eventos/evento-inaugural/foto3.jpeg"],
+    "palestras": [
+      {
+        "nome": "Erik Aceiro",
+        "nome2":null,
+        "titulo": "Além do Código: A Jornada de Dev, Arquiteto de Software e Staff Engineer",
+        "imagem": "assets/eventos/evento-inaugural/erik-aceiro.jpg",
+        "imagem2":null,
+        "link": "https://www.linkedin.com/in/erikaceiro/",
+        "link2": null,
+        "slides":
+          "https://drive.google.com/file/d/1a_K9JrRze4u5C0UlvVJQkXmzgxsPXSNN/view?usp=sharing"
+      },
+      {
+        "nome": "Guilherme Menaldo",
+        "nome2":null,
+        "titulo": "Por que Arquitetura de Software Importa?",
+        "imagem": "assets/eventos/evento-inaugural/guilherme-menaldo.jpg",
+        "imagem2":null,
+        "link": "https://www.linkedin.com/in/ggmenaldo/",
+        "link2": null,
+        "slides": "https://drive.google.com/file/d/1nYQQCkahBYvCNBCXk7OxDGFCeSW1FWOm/view"
+      }
+    ]
+  },
+  {
+    "title": "Arquitetura Orientada a Eventos & Micro Frontends",
+    "date": "2025-08-30",
+    "description":
+      "Obrigado a todos que participaram! Veja um pouco mais sobre o resumo do evento!",
+    "longDescription": "No dia 30 de agosto de 2025, a Academia do Arquiteto de Software realizou mais um encontro do projeto de extensão, reunindo estudantes e profissionais interessados em arquitetura de software.\n\n A primeira palestra, \"Eventos: Revoluções em Tempo Real\", foi conduzida por Matheus Barros, que abordou arquitetura orientada a eventos, explicando como sistemas reativos e escaláveis podem ser construídos e como essa abordagem impacta o desenvolvimento de software moderno.\n\n Em seguida, Fernando Moraes apresentou \"Mergulhando na Arquitetura Micro Frontends\", explorando estratégias para decomposição de aplicações web em módulos independentes, destacando benefícios de manutenção, escalabilidade e colaboração entre equipes. \n\nO evento foi encerrado com um momento especial de interação com o público, incluindo um sorteio de canecas, garrafas e chaveiros do Projeto, além de divulgação e apoio da comunidade Dev Rio Claro.",
+    "inscrever": "",
+    "linkfotos":
+      "https://photos.app.goo.gl/Gpvj715Mxg7xx2hp6",
+    "fotos": ["assets/eventos/evento-30-08-25/Foto1Evento30-08-25.jpg", "assets/eventos/evento-30-08-25/Foto2Evento30-08-25.jpg", "assets/eventos/evento-30-08-25/Foto3Evento30-08-25.jpg"],
+    "palestras": [
+      {
+        "nome": "Matheus Barros",
+        "nome2": null,
+        "titulo": "Eventos: Revoluções em Tempo Real",
+        "imagem": "assets/eventos/evento-30-08-25/matheusBarros.png",
+        "imagem2":null,
+        "link": "https://www.linkedin.com/in/barros42/",
+        "link2": null,
+        "slides":
+          "https://drive.google.com/file/d/1VekK6E3XkK2qz6Tr6Tk2y_sXGcxSQYy2/view?usp=sharing"
+      },
+      {
+        "nome": "Fernando Moraes",
+        "nome2": null,
+        "titulo": "Mergulhando na Arquitetura de Micro Frontends",
+        "imagem": "assets/eventos/evento-30-08-25/fernandoMoraes.png",
+        "imagem2": null,
+        "link": "https://www.linkedin.com/in/fernando-moraes-4aab55135/ ",
+        "link2": null,
+        "slides": "https://drive.google.com/file/d/1NAVVTB1bT-_olUXDDDL7L68sIemuYj8T/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "title": "Arquitetura Moderna: Padrões, Segurança e DevEx",
+    "date": "2025-11-29",
+    "description":
+      "Venha entender como boas decisões arquiteturais e experiências de desenvolvedores impulsionam sistemas modernos, seguros e colaborativos.",
+    "longDescription": "Vamos explorar os padrões de arquitetura que garantem sistemas seguros e escaláveis, aprender sobre as arquiteturas de referência da AWS (Segurança, Web e Data Lake) e como fazer discovery técnico efetivo para transformar a experiência dos desenvolvedores em times multidisciplinares.",
+    "inscrever": "https://forms.gle/wXZ9QRDCMoinKsm8A",
+    "linkfotos":
+      "",
+    "fotos": [],
+    "palestras": [
+      {
+        "nome": "Maira Scomparim ",
+        "nome2":"Kelly Reis",
+        "titulo": "Desenhando Arquiteturas, Desconstruindo Barreiras",
+        "imagem": "assets/eventos/evento-29-11-2025/kellyReis.png",
+        "imagem2": "assets/eventos/evento-29-11-2025/mairaScomparim.png",
+        "link": null,
+        "link2":"https://www.linkedin.com/in/keellyreis/",
+        "slides": ""
+      },
+      {
+        "nome": "Mariana Fantini",
+        "nome2": null,
+        "titulo": "Arquitetura de Software em Developer Experience: Como fazer discovery de arquitetura em times multidisciplinares",
+        "imagem": "assets/eventos/evento-29-11-2025/marianaFantini.jpg",
+        "imagem2":null,
+        "link": "https://www.linkedin.com/in/marianafantini/",
+        "link2": null,
+        "slides": ""
+      }
+    ]
+  }
+]
