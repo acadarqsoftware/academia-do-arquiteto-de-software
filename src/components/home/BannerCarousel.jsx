@@ -24,8 +24,8 @@ function BannerCarousel() {
   const banners = [
     {
       image: isMobile ? banner2Mobile : banner2Desktop,
-      title: 'Novo evento vem aí!',
-      text: 'Mais um evento a caminho, venha conferir!',
+      title: 'Obrigado a todos que participaram!',
+      text: 'Venha conferir como foi nosso último evento!',
       link: '/eventos',
       delay: 8000,
       buttonText: 'Veja aqui embaixo ',
