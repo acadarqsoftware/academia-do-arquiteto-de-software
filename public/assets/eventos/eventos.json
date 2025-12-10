@@ -71,30 +71,30 @@
     "title": "Arquitetura Moderna: Padrões, Segurança e DevEx",
     "date": "2025-11-29",
     "description":
-      "Venha entender como boas decisões arquiteturais e experiências de desenvolvedores impulsionam sistemas modernos, seguros e colaborativos.",
-    "longDescription": "Vamos explorar os padrões de arquitetura que garantem sistemas seguros e escaláveis, aprender sobre as arquiteturas de referência da AWS (Segurança, Web e Data Lake) e como fazer discovery técnico efetivo para transformar a experiência dos desenvolvedores em times multidisciplinares.",
-    "inscrever": "https://forms.gle/wXZ9QRDCMoinKsm8A",
+      "Agradecemos a todos que participaram do evento!",
+    "longDescription": "No dia 29 de novembro de 2025, a Academia do Arquiteto de Software realizou mais um encontro do projeto de extensão, reunindo estudantes e profissionais interessados em arquitetura moderna e boas práticas de desenvolvimento. \n\nA primeira palestra, \"Desenhando Arquiteturas, Desconstruindo Barreiras\", foi apresentada por Maira Scomparim e Kelly Reis, que abordaram os principais padrões arquiteturais e práticas que sustentam sistemas seguros, escaláveis e de alta qualidade. O conteúdo incluiu decisões arquiteturais para aplicações modernas, além da apresentação de três arquiteturas de referência da AWS: a de Segurança, com foco em proteção perimetral, análise forense e gestão de identidades, a de Hospedagem Web, utilizando ELB, AWS Shield e Amazon S3 para resiliência e desempenho e a de Data Lake, destacando coleta, processamento, governança e integração de dados. A palestra também explorou padrões como a Arquitetura Hexagonal e boas práticas colaborativas, incluindo Code Review, Pull Requests e Git Flow.\n\nNa sequência, ocorreu um Coding Dojo conduzido por Orlando Saraiva, no qual participantes do evento foram convidados a colaborar e resolver desafios de programação em um ambiente interativo com todos da plateia.\n\nO encontro foi encerrado com um agradecimento especial do professor responsável pelo projeto, Frank Affonso, seguido por um sorteio de canecas, garrafas e chaveiros do evento.",
+    "inscrever": "",
     "linkfotos":
-      "",
-    "fotos": [],
+      "https://photos.app.goo.gl/bzNZouCVTv29UNG2A",
+    "fotos": ["assets/eventos/evento-29-11-25/Foto1-Evento29-11-25.jpg","assets/eventos/evento-29-11-25/Foto2Evento29-11-25.jpg","assets/eventos/evento-29-11-25/Foto3Evento29-11-25.jpg", "assets/eventos/evento-29-11-25/Foto4Evento29-11-25.jpg"],
     "palestras": [
       {
         "nome": "Maira Scomparim ",
         "nome2":"Kelly Reis",
         "titulo": "Desenhando Arquiteturas, Desconstruindo Barreiras",
-        "imagem": "assets/eventos/evento-29-11-2025/kellyReis.png",
-        "imagem2": "assets/eventos/evento-29-11-2025/mairaScomparim.png",
+        "imagem": "assets/eventos/evento-29-11-25/kellyReis.png",
+        "imagem2": "assets/eventos/evento-29-11-25/mairaScomparim.png",
         "link": null,
         "link2":"https://www.linkedin.com/in/keellyreis/",
-        "slides": ""
+        "slides": "https://drive.google.com/file/d/1s5lGP5yw4RzavsyiO2_-nG9SjSfefE7m/view?usp=sharing"
       },
       {
-        "nome": "Mariana Fantini",
+        "nome": "Orlando Saraiva",
         "nome2": null,
-        "titulo": "Arquitetura de Software em Developer Experience: Como fazer discovery de arquitetura em times multidisciplinares",
-        "imagem": "assets/eventos/evento-29-11-2025/marianaFantini.jpg",
+        "titulo": "Conding Dojo",
+        "imagem": "assets/eventos/evento-29-11-25/orlandoSaraiva.jpg",
         "imagem2":null,
-        "link": "https://www.linkedin.com/in/marianafantini/",
+        "link": "https://www.linkedin.com/in/orlando-saraiva-j%C3%BAnior-83707022/",
         "link2": null,
         "slides": ""
       }
